@@ -57,7 +57,7 @@ public class SplashActivity extends Activity {
             @Override
             public void run() {
                 //判断当前账号是否已经登录过
-                if (EMClient.getInstance().isLoggedInBefore()) {
+                if (EMClient.getInstance().isLoggedInBefore()) { //登录过
 
                     //获取当前登录用户的信息
                     UserInfo account = Model.getInstance().getUserAccountDao().getAccountByHxId(EMClient.getInstance().getCurrentUser());

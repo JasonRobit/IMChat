@@ -91,7 +91,7 @@
             android:ems="10"
             android:gravity="center_vertical"
             android:hint="@string/pwd_hint"
-            android:inputType="textPersonName"
+            android:inputType="textPassword"
             android:textSize="24sp" />
 
     </LinearLayout>
